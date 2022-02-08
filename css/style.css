@@ -1,0 +1,115 @@
+/* ----------------------- FUENTES ---------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+/* ------------------------ RESET ----------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+/* ------------------------ CARDS ----------------------- */
+.cards-container {
+  display: flex;
+  margin: 0px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  overflow: hidden;
+}
+.cards-container .card {
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+  height: 500px;
+  background: #e38826;
+  color: rgba(255, 255, 255, 0.616);
+  padding: 3rem;
+  gap: 40px;
+}
+.cards-container .card__icon {
+  width: 65px;
+}
+.cards-container .card__title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+  color: #f2f2f2;
+}
+.cards-container .card__btn {
+  color: #e38826;
+  padding: 13px 0px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  background-color: #f2f2f2;
+  border: 3px solid #f2f2f2;
+  width: 146px;
+  text-align: center;
+  margin-top: 45px;
+  font-size: 14px;
+}
+.cards-container .card:nth-child(2) {
+  background: #006970;
+}
+.cards-container .card:nth-child(2) .card__btn {
+  color: #006970;
+}
+.cards-container .card:nth-child(3) {
+  background: #004241;
+}
+.cards-container .card:nth-child(3) .card__btn {
+  color: #004241;
+}
+.cards-container .card .card__btn:hover {
+  border: 3px solid #f2f2f2;
+  background: transparent;
+  color: #f2f2f2;
+}
+
+/* --------------------- BREAKPOINTS -------------------- */
+@media (max-width: 992px) {
+  main {
+    align-items: flex-start;
+  }
+
+  .cards-container {
+    margin: 50px 30px;
+    flex-direction: column;
+  }
+  .cards-container .card {
+    height: 440px;
+  }
+  .cards-container .card__info {
+    font-size: 14px;
+  }
+  .cards-container .card__btn {
+    margin-top: 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
