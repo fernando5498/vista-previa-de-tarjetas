@@ -1,5 +1,8 @@
 # Frontend Mentor - 3-column preview card component
 
+Mi solucion propuesta https://vistapreviatarjetas.netlify.app/
+link del desafio https://www.frontendmentor.io/solutions/vista-previa-de-tarjetas-con-htmlcss-y-sass-uy8nZbpBi
+
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
