@@ -117,3 +117,12 @@ main {
         }
     }
 }
+
+@media (max-width:350px) {
+    .cards-container .card {
+        padding: 1.5rem;
+        &__info {
+            max-width: 200px;
+        }
+    }
+}

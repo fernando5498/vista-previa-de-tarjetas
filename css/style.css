@@ -111,5 +111,13 @@ main {
     margin-top: 0px;
   }
 }
+@media (max-width: 350px) {
+  .cards-container .card {
+    padding: 1.5rem;
+  }
+  .cards-container .card__info {
+    max-width: 200px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
